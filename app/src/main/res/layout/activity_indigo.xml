@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3f51b5"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/btn_red50"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#e8eaf6"
+                android:text="#e8eaf6" />
+
+            <Button
+                android:id="@+id/btn_red100"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="#c5cae9"
+                android:text="#c5cae9" />
+
+            <Button
+                android:id="@+id/btn_red200"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="#9fa8da"
+                android:text="#9fa8da" />
+
+            <Button
+                android:id="@+id/btn_red300"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="#7986cb"
+                android:text="#7986cb" />
+
+            <Button
+                android:id="@+id/btn_red400"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="#5c6bc0"
+                android:text="#5c6bc0" />
+
+            <Button
+                android:id="@+id/btn_red500"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="#3f51b5"
+                android:text="#3f51b5" />
+
+            <Button
+                android:id="@+id/btn_red600"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="#3949ab"
+                android:text="#3949ab" />
+
+            <Button
+                android:id="@+id/btn_red700"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="#303f9f"
+                android:text="#303f9f" />
+
+            <Button
+                android:id="@+id/btn_red800"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="#283593"
+                android:text="#283593" />
+
+            <Button
+                android:id="@+id/btn_red900"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="#1a237e"
+                android:text="#1a237e" />
+
+            <Button
+                android:id="@+id/btn_reda100"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="#8c9eff"
+                android:text="#8c9eff" />
+
+            <Button
+                android:id="@+id/btn_reda200"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="#536dfe"
+                android:text="#536dfe" />
+
+            <Button
+                android:id="@+id/btn_reda400"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="#3d5afe"
+                android:text="#3d5afe" />
+
+            <Button
+                android:id="@+id/btn_reda700"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="#304ffe"
+                android:text="#304ffe" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--安卓4.4以上在values-v21中使用-->
+        <!-- 沉浸底部导航栏 -->
+        <item name="android:windowTranslucentNavigation">true</item>
+        <!-- 沉浸状态栏-->
+        <item name="android:windowTranslucentStatus">true</item>
+        <!--解决状态栏占位问题-->
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+</resources>
