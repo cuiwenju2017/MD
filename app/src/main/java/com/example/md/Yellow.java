@@ -7,8 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import com.jaeger.library.StatusBarUtil;
-
 public class Yellow extends AppCompatActivity implements View.OnClickListener {
 
     private Button btn_red50, btn_red100, btn_red200, btn_red300, btn_red400, btn_red500, btn_red600, btn_red700, btn_red800, btn_red900, btn_reda100,
@@ -20,8 +18,6 @@ public class Yellow extends AppCompatActivity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_yellow);
-        //设置状态栏透明度（0-255,0表示全透明，255表示不透明，不透明也就是黑色）
-        StatusBarUtil.setTranslucent(this, 0);
         //获取组件
         btn_red50 = findViewById(R.id.btn_red50);
         btn_red100 = findViewById(R.id.btn_red100);

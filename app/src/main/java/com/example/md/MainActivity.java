@@ -1,20 +1,12 @@
 package com.example.md;
 
 import android.app.Activity;
-import android.content.Intent;
-import android.os.Build;
-import android.os.Bundle;
-import android.support.annotation.RequiresApi;
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;;
+import android.os.Bundle;;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
-
-import com.jaeger.library.StatusBarUtil;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -36,8 +28,6 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //设置状态栏透明度（0-255,0表示全透明，255表示不透明，不透明也就是黑色）
-        StatusBarUtil.setTranslucent(this, 0);
         //获取组件
         lv = findViewById(R.id.lv);
         //生成适配器
